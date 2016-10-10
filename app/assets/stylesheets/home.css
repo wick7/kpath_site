@@ -154,8 +154,8 @@ video {
 	width: 100%;
 	height: 80em;
 	/*background-color: ;*/
-	position: absolute;
-	top: 44.8em;
+	position: relative;
+	top: 55em;
 	left: 0;
 	z-index: 1;
 }
