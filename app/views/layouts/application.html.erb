@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kpath</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id = "navigation">
+	<div id="nav_wrapper">
+		<ul>
+		  <li><a><%= link_to "HOME", page_home_url%></a></li>
+		  <li><a><%= link_to "ABOUT", page_about_url%></a></li>
+		  <li><a><%= link_to "MISC", page_contact_url%></a></li>
+		</ul>
+	</div>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
